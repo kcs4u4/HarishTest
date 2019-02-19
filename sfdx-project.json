@@ -13,6 +13,16 @@
     "path" : "TestModule1",
     "versionName" : "ver 0.1",
     "versionNumber" : "0.1.0.NEXT",
+    "dependencies" : [ {
+      "versionNumber" : "1.0.0.0",
+      "package" : "TestModule1"
+    } ],
+    "default" : false,
+    "package" : "hgh"
+  }, {
+    "path" : "TestModule1",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT",
     "default" : true,
     "package" : "TestModule1"
   } ],
@@ -21,6 +31,7 @@
   "sourceApiVersion" : "44.0",
   "packageAliases" : {
     "TestModule1" : "0Ho0o000000fxYdCAI",
-    "dep1" : "0Ho0o000000fxaFCAQ"
+    "dep1" : "0Ho0o000000fxaFCAQ",
+    "hgh" : "0Ho0o000000fxaKCAQ"
   }
 }
