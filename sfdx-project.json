@@ -1,17 +1,26 @@
 {
-    "packageDirectories": [
-        {
-            "path": "TestModule1",
-            "default": true,
-            "package": "TestModule1",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT"
-        }
-    ],
-    "namespace": "",
-    "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "44.0",
-    "packageAliases": {
-        "TestModule1": "0Ho0o000000fxYdCAI"
-    }
+  "packageDirectories" : [ {
+    "path" : "TestModule1",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT",
+    "dependencies" : [ {
+      "versionNumber" : "1.0.0.0",
+      "package" : "TestModule1"
+    } ],
+    "default" : false,
+    "package" : "dep1"
+  }, {
+    "path" : "TestModule1",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT",
+    "default" : true,
+    "package" : "TestModule1"
+  } ],
+  "namespace" : "",
+  "sfdcLoginUrl" : "https://login.salesforce.com",
+  "sourceApiVersion" : "44.0",
+  "packageAliases" : {
+    "TestModule1" : "0Ho0o000000fxYdCAI",
+    "dep1" : "0Ho0o000000fxaFCAQ"
+  }
 }
