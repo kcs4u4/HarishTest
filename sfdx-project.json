@@ -1,53 +1,45 @@
 {
-    "packageDirectories": [
-        {
-            "path": "TestModule1",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "dependencies": [
-                {
-                    "versionNumber": "1.0.0.0",
-                    "package": "TestModule1"
-                }
-            ],
-            "default": false,
-            "package": "dep1"
-        },
-        {
-            "path": "TestModule1",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "dependencies": [
-                {
-                    "versionNumber": "1.0.0.0",
-                    "package": "TestModule1"
-                }
-            ],
-            "default": false,
-            "package": "hgh"
-        },
-        {
-            "path": "TestModule1",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": true,
-            "package": "TestModule1"
-        },
-        {
-            "path": "TestModule1",
-            "package": "harish",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false
-        }
-    ],
-    "namespace": "",
-    "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "44.0",
-    "packageAliases": {
-        "TestModule1": "0Ho0o000000fxYdCAI",
-        "dep1": "0Ho0o000000fxaFCAQ",
-        "hgh": "0Ho0o000000fxaKCAQ",
-        "harish": "0Ho0o000000fxajCAA"
-    }
+  "packageDirectories" : [ {
+    "path" : "TestModule1",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT",
+    "default" : true,
+    "package" : "TestModule1"
+  }, {
+    "path" : "TestModule1",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT",
+    "dependencies" : [ {
+      "versionNumber" : "1.0.0.0",
+      "package" : "TestModule1"
+    } ],
+    "default" : false,
+    "package" : "hgh"
+  }, {
+    "path" : "TestModule1",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT",
+    "dependencies" : [ {
+      "versionNumber" : "1.0.0.0",
+      "package" : "TestModule1"
+    } ],
+    "default" : false,
+    "package" : "dep1"
+  }, {
+    "path" : "TestModule1",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT",
+    "default" : false,
+    "package" : "harish"
+  } ],
+  "namespace" : "",
+  "sfdcLoginUrl" : "https://login.salesforce.com",
+  "sourceApiVersion" : "44.0",
+  "packageAliases" : {
+    "TestModule1" : "0Ho0o000000fxYdCAI",
+    "dep1" : "0Ho0o000000fxaFCAQ",
+    "hgh" : "0Ho0o000000fxaKCAQ",
+    "harish" : "0Ho0o000000fxajCAA",
+    "harish@0.0.0.1" : "04t0o0000028RsvAAE"
+  }
 }
