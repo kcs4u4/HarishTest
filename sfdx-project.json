@@ -1,16 +1,27 @@
 {
   "packageDirectories" : [ {
     "path" : "TestModule1",
+    "default" : true,
+    "package" : "TestModule1",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT"
+  }, {
+    "path" : "TestModule1",
+    "default" : false,
+    "package" : "Chandu",
     "versionName" : "ver 0.1",
     "versionNumber" : "0.1.0.NEXT",
-    "default" : true,
-    "package" : "TestModule1"
+    "dependencies" : [ {
+      "package" : "harish",
+      "versionNumber" : "0.0.0.1"
+    } ]
   } ],
   "namespace" : "",
   "sfdcLoginUrl" : "https://login.salesforce.com",
   "sourceApiVersion" : "44.0",
   "packageAliases" : {
     "TestModule1" : "0Ho0o000000fxYdCAI",
-    "TestModule1@1.0.0.0" : "04t0o0000028Rx8AAE"
+    "TestModule1@1.0.0.0" : "04t0o0000028Rx8AAE",
+    "Chandu" : "0Ho0o000000005QCAQ"
   }
 }
